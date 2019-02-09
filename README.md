@@ -6,6 +6,7 @@ This is my first attempt for implementing a neural network into objects. The obj
 -Create foundation[X]<br/>
 -Complete GUI[ ] <br/>
 -Complete working collision mechanism[ ]<br/>
+-Create a maze
 -Implement neural network[ ] <br/>
 
 
