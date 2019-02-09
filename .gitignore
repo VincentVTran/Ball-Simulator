@@ -1,2 +1,4 @@
 .DS_Store
 *.class
+dir_to_ignore/out
+

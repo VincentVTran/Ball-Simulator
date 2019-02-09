@@ -7,8 +7,15 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
 
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Maze.development_gui_Controller">
    <children>
+      <ImageView fitHeight="453.0" fitWidth="691.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Icons/background.jpg" />
+         </image>
+      </ImageView>
       <Circle fx:id="subject" fill="DODGERBLUE" layoutX="300.0" layoutY="178.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
       <Button fx:id="up_button" layoutX="93.0" layoutY="247.0" mnemonicParsing="false" onAction="#move_up" prefHeight="27.0" prefWidth="42.0" text="Up" />
       <Button fx:id="left_button" layoutX="37.0" layoutY="291.0" mnemonicParsing="false" onAction="#move_left" text="Left" />
@@ -20,6 +27,7 @@
       <Text layoutX="26.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direction:" wrappingWidth="61.000001192092896" />
       <Slider fx:id="velocity_slider" layoutX="30.0" layoutY="179.0" />
       <Text layoutX="79.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed" wrappingWidth="41.999995708465576" />
+      <Button fx:id="back_button" onAction="#backselected" layoutX="454.0" layoutY="332.0" mnemonicParsing="false" text="Back" />
 
 
 

@@ -3,6 +3,9 @@ package Maze;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Slider;
 import javafx.scene.shape.Circle;
 
@@ -10,6 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 
+import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
@@ -50,6 +54,11 @@ public class development_gui_Controller {
     private void move_left() {
         mover.moveleft(subject,distance,100);
         mover.checkcollision(subject,barrier_list);
+    }
+    @FXML
+    private void backselected() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Main_Screen.fxml"));
+        Main.primary.setScene(new Scene(root,600,400));
     }
     private void slider_setup(){
         velocity_slider.setMax(50);

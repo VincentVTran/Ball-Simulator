@@ -8,14 +8,19 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    static Stage primary;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("automatic_movement.fxml")); //Change scenes
-        primaryStage.setTitle("MazeNN");
-        primaryStage.setScene(new Scene(root, 600, 400));
-        primaryStage.show();
+        Parent root = FXMLLoader.load(getClass().getResource("Main_Screen.fxml")); //Change scenes
+        primary = primaryStage;
+        primary.setTitle("Maze");
+        primary.setScene(new Scene(root, 600, 400));
+        primary.show();
     }
 
+    public void set_scene(Parent root){
+        primary.setScene(new Scene(root,600,800));
+    }
 
     public static void main(String[] args) {
         launch(args);
