@@ -1,4 +1,4 @@
-package sample;
+package Maze;
 
 public class Neuron {
     double weight1;

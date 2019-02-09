@@ -1,4 +1,4 @@
-package sample;
+package Maze;
 
 public class NeuralNetwork {
     public void main_network(){

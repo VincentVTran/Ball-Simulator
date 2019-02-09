@@ -1,7 +1,6 @@
-package sample;
+package Maze;
 
 import javafx.fxml.FXML;
-import javafx.scene.canvas.Canvas;
 
 import java.awt.*;
 
