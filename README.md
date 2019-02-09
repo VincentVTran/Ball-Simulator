@@ -3,7 +3,7 @@ This is my first attempt for implementing a neural network into objects. The obj
 To install- <br/>
 `git clone https://github.com/VincentVTran/Neural-Network-Maze.git`
 
-![](first.gif)
+![](First.gif)
 
 
 DISCLAIMER:
