@@ -1,5 +1,6 @@
 package Maze;
 
+import Maze.Algorithm.Subject_Object;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -7,6 +8,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Slider;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 
 import javafx.scene.control.Button;
@@ -22,32 +25,35 @@ public class development_gui_Controller {
     Physics mover = new Physics();
     ArrayList<Rectangle> barrier_list = new ArrayList<>();
 
+    Subject_Object subject;
     @FXML
     Button left_button,right_button,up_button,down_button;
     @FXML
     Text velocity_display;
     @FXML
-    Circle subject;
-    @FXML
     Rectangle rectangle_1;
     @FXML
     Slider velocity_slider;
+    @FXML
+    Pane MainPane;
+
+    double distance = 5;
+    DecimalFormat decimal = new DecimalFormat("#.##");
+    double velocity = Double.valueOf(decimal.format(distance/.1));
 
     @FXML
     public void initialize(){
         load();
     }
-
-    double distance = 5;
-    int time_millisec = 100;
-    DecimalFormat decimal = new DecimalFormat("#.##");
-    double velocity = Double.valueOf(decimal.format(distance/.1));
-
-
     private void load(){
         barrier_list.add(rectangle_1);
         velocity_display.setText(Double.toString(velocity)+" pixel/sec");
         slider_setup();
+        subject = new Subject_Object(12);
+        subject.setFill(Color.DODGERBLUE);
+        subject.setLayoutX(300);
+        subject.setLayoutY(244);
+        MainPane.getChildren().add(subject);
     }
 
     @FXML

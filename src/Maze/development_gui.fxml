@@ -9,14 +9,13 @@
 
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Maze.development_gui_Controller">
+<Pane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Maze.development_gui_Controller">
    <children>
       <ImageView fitHeight="453.0" fitWidth="691.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../Icons/background.jpg" />
          </image>
       </ImageView>
-      <Circle fx:id="subject" fill="DODGERBLUE" layoutX="300.0" layoutY="178.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
       <Button fx:id="up_button" layoutX="93.0" layoutY="247.0" mnemonicParsing="false" onAction="#move_up" prefHeight="27.0" prefWidth="42.0" text="Up" />
       <Button fx:id="left_button" layoutX="37.0" layoutY="291.0" mnemonicParsing="false" onAction="#move_left" text="Left" />
       <Button fx:id="right_button" layoutX="135.0" layoutY="291.0" mnemonicParsing="false" onAction="#move_right" prefHeight="27.0" prefWidth="55.0" text="Right" />

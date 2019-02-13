@@ -1,5 +1,6 @@
 package Maze;
 
+import Maze.Algorithm.Subject_Object;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -8,6 +9,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
@@ -18,13 +21,15 @@ import java.util.ArrayList;
 public class automatic_movement_Controller {
     Physics mover = new Physics();
     ArrayList<Rectangle> boundaries = new ArrayList<>();
-    @FXML
-    Circle subject;
+
     @FXML
     Rectangle rectangle_1, rectangle_2, rectangle_3, rectangle_4;
     @FXML
     Button back_button;
+    @FXML
+    AnchorPane MainPane;
 
+    Subject_Object subject;
     private void load() {
         boundaries.add(rectangle_1);
         boundaries.add(rectangle_2);
@@ -35,8 +40,12 @@ public class automatic_movement_Controller {
     @FXML
     public void initialize() {
         load();
+        MainPane.getChildren().add(subject);
+        subject = new Subject_Object(12);
+        subject.setFill(Color.DODGERBLUE);
+        subject.setLayoutX(300);
+        subject.setLayoutY(244);
     }
-
     @FXML
     private void start_movement() {
         run();

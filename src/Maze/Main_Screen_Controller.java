@@ -27,12 +27,17 @@ public class Main_Screen_Controller {
             Parent root = FXMLLoader.load(getClass().getResource("automatic_movement.fxml")); //Change scenes
             Main.primary.setScene(new Scene(root, 600, 400));
         }
+        else if(selection.toLowerCase().equals("genetic algorithm")) {
+            Parent root = FXMLLoader.load(getClass().getResource("Algorithm/Algorithm_Screen.fxml")); //Change scenes
+            Main.primary.setScene(new Scene(root, 600, 400));
+        }
     }
 
     @FXML
     public void initialize(){
         Menu_Option.getItems().add("Controllable Subject");
         Menu_Option.getItems().add("Automatically Moving Subject");
+        Menu_Option.getItems().add("Genetic Algorithm");
     }
 
 }

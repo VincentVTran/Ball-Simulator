@@ -5,13 +5,20 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Maze.automatic_movement_Controller">
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane fx:id="MainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Maze.automatic_movement_Controller">
    <children>
-      <Circle fx:id="subject" fill="DODGERBLUE" layoutX="300.0" layoutY="244.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="453.0" fitWidth="691.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Icons/background.jpg" />
+         </image>
+      </ImageView>
       <Rectangle fx:id="rectangle_1" arcHeight="5.0" arcWidth="5.0" height="7.0" layoutX="212.0" layoutY="117.0" stroke="TRANSPARENT" strokeType="INSIDE" width="200.0" />
       <Rectangle fx:id="rectangle_2" arcHeight="5.0" arcWidth="5.0" height="7.0" layoutX="112.0" layoutY="214.0" rotate="-90.0" stroke="#00000002" strokeType="INSIDE" width="200.0" />
       <Rectangle fx:id="rectangle_3" arcHeight="5.0" arcWidth="5.0" height="7.0" layoutX="212.0" layoutY="311.0" stroke="#00000004" strokeType="INSIDE" width="200.0" />
       <Rectangle fx:id="rectangle_4" arcHeight="5.0" arcWidth="5.0" height="7.0" layoutX="309.0" layoutY="214.0" rotate="90.0" stroke="TRANSPARENT" strokeType="INSIDE" width="200.0" />
       <Button fx:id="start_button" layoutX="55.0" layoutY="148.0" mnemonicParsing="false" onAction="#start_movement" text="Run" />
+      <Button fx:id="back_button" onAction="#backselected" layoutX="493.0" layoutY="330.0" mnemonicParsing="false" text="Back" />
    </children>
 </AnchorPane>
