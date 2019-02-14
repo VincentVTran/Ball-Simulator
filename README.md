@@ -4,10 +4,11 @@ This is my first attempt for implementing a neural network into objects. The obj
 
 **Progression** <br/>
 -Create foundation[X]<br/>
--Complete GUI[ ] <br/>
+-Complete GUI[X] <br/>
 -Complete working collision mechanism[ ]<br/>
--Create a maze
+-Create a maze[X]<br/>
 -Implement neural network[ ] <br/>
+(Might use genetic algorithm to back propogate)
 
 
 **Instruction** <br/>
