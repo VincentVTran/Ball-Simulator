@@ -58,7 +58,7 @@ public class development_gui_Controller {
 
     @FXML
     private void move_left() {
-        mover.moveleft(subject,distance,100);
+       // mover.moveleft(subject,distance,100);
         mover.checkcollision(subject,barrier_list);
     }
     @FXML

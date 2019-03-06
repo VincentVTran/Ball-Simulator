@@ -17,11 +17,11 @@ import java.util.ArrayList;
 
 public class Physics {
     //Basic four direction movement
-    public void moveleft(Subject_Object object, double distance, int speed) {
+    public void moveleft(Subject_Object object, double distance, int speed, Timeline timeline) {
         double desired_stance = object.getCenterX() - distance;
-        Timeline moving_action = new Timeline(new KeyFrame(Duration.millis(speed), new KeyValue(object.centerXProperty(), desired_stance)));
-        moving_action.setCycleCount(1);
-        moving_action.play();
+        timeline.getKeyFrames().add(new KeyFrame(Duration.millis(speed), new KeyValue(object.centerXProperty(), desired_stance)));
+        timeline.setCycleCount(1);
+        timeline.playFromStart();
     }
 
     public void moveright(Subject_Object  object, double distance, int speed) {
