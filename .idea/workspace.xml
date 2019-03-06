@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MazeNeuralNetwork/MazeNeuralNetwork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MazeNeuralNetwork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maze/Algorithm/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maze/Algorithm/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maze/Algorithm/Subject_Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maze/Algorithm/Subject_Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maze/Physics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maze/Physics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maze/development_gui_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maze/development_gui_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeNeuralNetwork/MazeNeuralNetwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MazeNeuralNetwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeNeuralNetwork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,21 +86,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MazeNeuralNetwork/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maze Neural Network.iml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -217,17 +209,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Maze-NeuralNetwork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Maze-NeuralNetwork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -274,17 +256,7 @@
             <path>
               <item name="Maze Neural Network" type="b2602c69:ProjectViewProjectNode" />
               <item name="Maze Neural Network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maze Neural Network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maze Neural Network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Maze" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maze Neural Network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="MazeNeuralNetwork" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,7 +392,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="724" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29886913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29886913" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,7 +414,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -658,17 +630,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeNeuralNetwork/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Maze Neural Network.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maze Neural Network.iml">
+    <entry file="file://$PROJECT_DIR$/src/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
