@@ -1,15 +1,5 @@
 **Introduction** <br/>
-This is my first attempt for implementing a neural network into objects. The objective is to develop a mechanism for the subject, the blue circle, to avoid walls.
-
-
-**Progression** <br/>
--Create foundation[X]<br/>
--Complete GUI[X] <br/>
--Complete working collision mechanism[ ]<br/>
--Create a maze[X]<br/>
--Implement neural network[ ] <br/>
-(Might use genetic algorithm to back propogate)
-
+This is my first attempt for implementing a neural network into objects. The objective is to develop a mechanism for the subject, the blue circle, to avoid walls. Maven Project Manager was used to implement DeepLearning4J API.
 
 **Instruction** <br/>
 
@@ -25,7 +15,5 @@ _To install-_ <br/>
 ![](/Icons/Second.gif)
 
 
-**DISCLAIMER:**
-You may need to build the package in an IDE before running the programming (the main class is Maze.Main.java).
   
 
