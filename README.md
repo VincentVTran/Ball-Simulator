@@ -1,5 +1,5 @@
 **Introduction** <br/>
-This is my first attempt for implementing a neural network into objects. The objective is to develop a mechanism for the subject, the blue circle, to avoid walls. Maven Project Manager was used to implement DeepLearning4J API.
+This is my first attempt for implementing a neural network into objects. The objective is to develop a mechanism for the subject, the blue circle, to avoid walls. Maven Project Manager was used to implement DeepLearning4J Framework.
 
 **Instruction** <br/>
 
